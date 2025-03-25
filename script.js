@@ -1,4 +1,4 @@
-function sum(a, b) {
-    return a + b;
+function capitalizeFirstLetter(string){
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
-module.exports = sum;
+module.exports = capitalizeFirstLetter;
