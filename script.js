@@ -1,4 +1,12 @@
 function capitalizeFirstLetter(string){
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
-module.exports = capitalizeFirstLetter;
+
+function reverseString(string){
+    return string.split("").reverse().join("");
+}
+
+module.exports = {
+    capitalizeFirstLetter,
+    reverseString
+};

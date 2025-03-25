@@ -1,5 +1,9 @@
-const capitalizeFirstLetter = require('./script');
+const {capitalizeFirstLetter, reverseString} = require('./script');
 
-test ('capitalize first letter', () => {
+test ('Capitalize first letter', () => {
     expect(capitalizeFirstLetter('john')).toBe('John');
+});
+
+test ('Reverse string', () => {
+    expect(reverseString('john')).toBe('nhoj');
 });
