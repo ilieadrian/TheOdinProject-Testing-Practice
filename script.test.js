@@ -1,4 +1,4 @@
-const {capitalizeFirstLetter, reverseString, calculator} = require('./script');
+const {capitalizeFirstLetter, reverseString, calculator, caesarCipher} = require('./script');
 
 test ('Capitalize first letter', () => {
     expect(capitalizeFirstLetter('john')).toBe('John');
@@ -19,6 +19,11 @@ test ('Calculator minus', () => {
 test ('Calculator multiply', () => {
     expect(calculator.multiply(3,6)).toBe(18);
 });
+
 test ('Calculator divide', () => {
     expect(calculator.divide(21,3)).toBe(7);
+});
+
+test ('Caesar cipher', () => {
+    expect(caesarCipher('Hello, World!', 3)).toBe();
 });

@@ -21,6 +21,8 @@ const calculator = {
     }
 }
 
+function 
+
 module.exports = {
     capitalizeFirstLetter,
     reverseString,
