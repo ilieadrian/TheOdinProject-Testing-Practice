@@ -25,5 +25,5 @@ test ('Calculator divide', () => {
 });
 
 test ('Caesar cipher', () => {
-    expect(caesarCipher('Hello, World!', 3)).toBe();
+    expect(caesarCipher('xyz', 3)).toBe('abc');
 });
