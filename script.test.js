@@ -27,3 +27,11 @@ test ('Calculator divide', () => {
 test ('Caesar cipher', () => {
     expect(caesarCipher('xyz', 3)).toBe('abc');
 });
+
+test ('Caesar cipher case preservation', () => {
+    expect(caesarCipher('HeLLo', 3)).toBe('KhOOr');
+});
+
+test ('Caesar cipher test punctuation', () => {
+    expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
+});
